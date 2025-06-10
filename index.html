@@ -1,9 +1,74 @@
 <!DOCTYPE html>
-<html>
+<html lang="vi">
 <head>
-  <title>Welcome</title>
+  <meta charset="UTF-8">
+  <title>Shop Nghĩa</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+    }
+    header {
+      background-color: #0077cc;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+    }
+    .product {
+      background-color: white;
+      margin: 10px;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      width: 200px;
+      text-align: center;
+    }
+    .product img {
+      width: 100%;
+      height: auto;
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      padding: 10px;
+      text-align: center;
+    }
+  </style>
 </head>
 <body>
-  <h1>Hello from Jenkins & Docker!</h1>
+  <header>
+    <h1>Chào mừng đến với Shop Nghĩa</h1>
+    <p>Trang web bán hàng đơn giản dùng Docker & Jenkins</p>
+  </header>
+
+  <div class="products">
+    <div class="product">
+      <img src="https://picsum.photos/200?random=1" alt="Sản phẩm 1">
+      <h3>Sản phẩm 1</h3>
+      <p>Giá: 100.000 VND</p>
+    </div>
+    <div class="product">
+      <img src="https://picsum.photos/200?random=2" alt="Sản phẩm 2">
+      <h3>Sản phẩm 2</h3>
+      <p>Giá: 150.000 VND</p>
+    </div>
+    <div class="product">
+      <img src="https://picsum.photos/200?random=3" alt="Sản phẩm 3">
+      <h3>Sản phẩm 3</h3>
+      <p>Giá: 200.000 VND</p>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Shop Nghĩa - Mọi quyền được bảo lưu.
+  </footer>
 </body>
 </html>
